@@ -1,0 +1,108 @@
+.container{
+    position: relative;
+}
+.title{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+.codepro{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    background-color: black;
+    border: 1px solid;
+    height: 250px;
+    width: 450px;
+}
+.first{
+    /* position: absolute; */
+    top: 15px;
+    background-color: white;
+    height: 220px;
+    border-radius: 20px;
+}
+.sun{
+    position: absolute;
+    left: 370px;
+    top: 0px;
+    color: black;
+    font-weight: bolder;
+}
+
+.girl{
+    position: absolute;
+    top: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+.fellow{
+    position: absolute;
+    left: 100px;
+    top: 95px;
+}
+.text{
+    position: absolute;
+    top: 140px;
+    font-size: larger;
+}
+.hashtag1{
+    font-weight: bold;
+    position: absolute;
+    top: 180px;
+}
+.hashtag2{
+    padding-left: 10px;
+}
+.code{
+    position: absolute;
+    color: black;
+    left: 330px;
+    bottom: 2px;
+    /* font-size: 5rem; Adjust size as per your design */
+}
+
+
+@media only screen and (max-width: 992px){
+    .codepro{
+       flex-direction: column;
+       position: absolute;
+        left: 0px;
+    }
+    
+    .intern{
+        position: absolute;
+        left: 0px;
+        float: left;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .codepro{
+        flex-direction: column;
+        position: absolute;
+        left: 0px;
+     }
+     .intern{
+        position: absolute;
+        left: 0px;
+        float: left;
+    }
+}
+
+@media (max-width: 768px){
+    .codepro{
+        position: absolute;
+        left: 0px;
+        float: left;
+    }
+    .intern{
+        position: absolute;
+        left: 6px;
+        float: left;
+    }
+}
